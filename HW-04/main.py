@@ -143,8 +143,6 @@ def fact(end):
     for item in range(1, end+1):
         yield reduce(lambda total, amount: total * amount, range(1, item+1))
 
-n = 5
+n = 4
 for el in fact(n):
     print(el)
-    if i > 10:
-        break
